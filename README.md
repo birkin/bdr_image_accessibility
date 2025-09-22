@@ -7,7 +7,7 @@ related urls:
 ---
 
 
-files in the dev-server dir:
+files here and in the dev-server dir:
 - `h_current.html` -- (the `h_` indicates html) the current html for our mirador viewer that you'd see if you did a view-source on the viewer url, above. 
 - `h_more_accessible.html` -- chatgpt-suggested html that loads more-accessible manifest-json. Note that (like `current.html`) viewing this file doesn't show much image information -- the js needs to be loaded. See `full_more_accessible_generated_html` below, or right-click and inspect the generated html from a browser. 
 - `dummy_manifest.json` -- chatgpt example minimal version-2 manifest-json loaded-manually by `more_accessible.html`.
