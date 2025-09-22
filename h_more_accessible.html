@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>"An act [of God in] in more ways than one." (1943) – Accessible viewer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Mirador -->
+    <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+    <style>
+      .visually-hidden{position:absolute!important;clip:rect(1px,1px,1px,1px);padding:0;border:0;height:1px;width:1px;overflow:hidden}
+      .viewer-wrap{display:grid;gap:1rem}
+      @media (min-width: 900px){.viewer-wrap{grid-template-columns: 2fr 1fr}}
+      figure{margin:0}
+      figcaption{margin-top:.5rem}
+      .desc-panel{border:1px solid #ddd;padding:1rem;border-radius:.5rem}
+    </style>
+  </head>
+  <body>
+    <a class="visually-hidden" href="#longdesc">Skip to description</a>
+
+    <main class="viewer-wrap" aria-labelledby="work-title">
+      <section id="viewer-region"
+               role="region"
+               aria-labelledby="work-title"
+               aria-describedby="longdesc"
+               tabindex="-1">
+        <h1 id="work-title">Loading title…</h1>
+
+        <!-- Accessible fallback image (always present in the DOM) -->
+        <figure>
+          <img id="fallback-img"
+               src=""
+               alt="Loading image…"
+               width="800"
+               height="600"
+               decoding="async">
+          <figcaption id="figcaption" class="visually-hidden"></figcaption>
+        </figure>
+
+        <!-- Mirador mount point -->
+        <div id="mirador" aria-hidden="true"></div>
+
+        <noscript>
+          <p>Interactive viewer requires JavaScript. The static image above remains available.</p>
+        </noscript>
+      </section>
+
+      <aside class="desc-panel" id="longdesc" aria-label="Work description">
+        <h2>Description & details</h2>
+        <div id="summary">Loading description…</div>
+        <dl id="meta-list"></dl>
+        <p><a id="manifest-link" href="#" rel="nofollow">View IIIF manifest (JSON)</a></p>
+      </aside>
+    </main>
+
+    <script>
+      // ---- config
+      const PID = 'bdr:247087';
+    //   const manifestUrl =
+    //     `https://repository.library.brown.edu/iiif/presentation/${PID}/manifest.json`;
+      const manifestUrl =
+        `https://dlibwwwcit.services.brown.edu/bjd/mirador_accessibility/dummy_manifest.json`;
+      const imageInfoUrl =
+        `https://repository.library.brown.edu/iiif/image/${PID}/info.json`;
+
+      // ---- helper: turn IIIF value (string or {en:[…]}) into plain text
+      const t = v => {
+        if (!v) return '';
+        if (typeof v === 'string') return v;
+        if (Array.isArray(v)) return v.join(' ');
+        // IIIF v3 language map
+        const firstLang = Object.keys(v)[0];
+        const val = v[firstLang];
+        return Array.isArray(val) ? val.join(' ') : (val || '');
+      };
+
+      async function hydrateFromManifest() {
+        const r = await fetch(manifestUrl);
+        const mf = await r.json();
+
+        // title
+        const title = t(mf.label) || 'Untitled item';
+        document.getElementById('work-title').textContent = title;
+
+        // summary/description
+        const summaryEl = document.getElementById('summary');
+        const summary = t(mf.summary) || 'No description available.';
+        summaryEl.textContent = summary;
+
+        // metadata list (label/value pairs)
+        const dl = document.getElementById('meta-list');
+        (mf.metadata || []).forEach(entry => {
+          const dt = document.createElement('dt');
+          dt.textContent = t(entry.label);
+          const dd = document.createElement('dd');
+          dd.textContent = t(entry.value);
+          dl.appendChild(dt); dl.appendChild(dd);
+        });
+
+        // figcaption mirrors short description for users who land on the image
+        document.getElementById('figcaption').textContent = summary;
+        document.getElementById('manifest-link').href = manifestUrl;
+      }
+
+      async function setFallbackImgAltAndSrc() {
+        // Use IIIF Image API to build a reasonable raster URL and alt
+        const r = await fetch(imageInfoUrl);
+        const info = await r.json();
+        // choose a max width that’s friendly; use 'full' if sizes not advertised
+        const width = (info.sizes && info.sizes.length)
+          ? Math.max(...info.sizes.map(s => s.width))
+          : 1200;
+        const imgUrl = `${info['@id'] || info.id}/full/${width},/0/default.jpg`;
+        const img = document.getElementById('fallback-img');
+        img.src = imgUrl;
+        // reuse the page title as an alt baseline; longdesc carries detail
+        img.alt = document.getElementById('work-title').textContent || 'Digital image';
+      }
+
+      function initMirador() {
+        const m = Mirador.viewer({
+          id: 'mirador',
+          selectedTheme: 'light',
+          workspace: { showZoomControls: true, type: 'mosaic' },
+          window: { allowFullscreen: true },
+          windows: [
+            {
+              manifestId: manifestUrl,
+              view: 'single',
+              allowClose: false,
+              defaultSideBarPanel: 'info',
+              sideBarOpenByDefault: false,
+              canvasIndex: 0
+            }
+          ]
+        });
+
+        // After Mirador mounts, hide raw canvases from AT (we provide text elsewhere)
+        // and ensure the Mirador region isn’t the first tab-stop.
+        const hideCanvases = () => {
+          document.querySelectorAll('#mirador canvas, #mirador [role="img"]').forEach(el => {
+            el.setAttribute('aria-hidden', 'true');
+          });
+        };
+        // Run now and after any re-render
+        hideCanvases();
+        const obs = new MutationObserver(hideCanvases);
+        obs.observe(document.getElementById('mirador'), { subtree: true, childList: true });
+      }
+
+      // Kick things off
+      (async () => {
+        await hydrateFromManifest();
+        await setFallbackImgAltAndSrc();
+        initMirador();
+      })();
+    </script>
+  </body>
+</html>

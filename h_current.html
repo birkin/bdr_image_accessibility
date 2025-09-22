@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <title>&quot;An act [of God in] in more ways than one.&quot; 1943</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+  </head>  
+  <body>
+    <div id="mirador"></div>
+
+    <script type="text/javascript">
+      Mirador.viewer({
+        id: "mirador",
+        themes: {
+          dark: {
+            palette: {
+              type: 'dark',
+              primary: {
+                main: '#ffc72c',
+              },
+            },
+          },
+          light: {
+            palette: {
+              type: 'light',
+              primary: {
+                main: '#c00404',
+              },
+            },
+          },
+        },
+        selectedTheme: 'light',
+        workspace: {
+          showZoomControls: true,
+          type: 'mosaic',
+        },
+        thumbnailNavigation: {
+          defaultPosition: 'far-right',
+        },
+        window: {
+            allowFullscreen: true,
+        },
+        
+        windows: [
+          {
+            manifestId: 'https://repository.library.brown.edu/iiif/presentation/bdr:247087/manifest.json',
+            view: 'single',
+            allowClose: false,
+            defaultSideBarPanel: 'info',
+            sideBarOpenByDefault: false,
+            
+            canvasIndex: 0
+          },
+        ]
+      });
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,345 @@
+<html lang="en">
+<head>
+	<meta name="emotion-insertion-point" content="">
+	<title>"An act [of God in] in more ways than one." 1943</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://unpkg.com/mirador@latest/dist/mirador.min.js">
+</script>
+	<style data-emotion="mui-global" data-s=""></style>
+	<style data-emotion="mui" data-s=""></style>
+</head>
+<body>
+<div id="mirador">
+	<div class="fullscreen">
+		<div class="mui-rvh6fe-WorkspaceArea-root">
+			<nav class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorDefault MuiAppBar-positionAbsolute mirador-workspace-control-panel mui-1n12hsf-MuiPaper-root-MuiAppBar-root-WorkspaceControlPanel-root" aria-label="Workspace navigation" style="--Paper-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);">
+				<div class="MuiToolbar-root MuiToolbar-regular mui-1seisq0-MuiToolbar-root-WorkspaceControlPanel-toolbar">
+					<button class="MuiButtonBase-root MuiFab-root MuiFab-circular MuiFab-sizeMedium MuiFab-primary MuiFab-root MuiFab-circular MuiFab-sizeMedium MuiFab-primary mui-19rqirn-MuiButtonBase-root-MuiFab-root-WorkspaceAddButton-root" tabindex="0" type="button" id="addBtn" aria-label="Add resource" data-mui-internal-clone-element="true"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mui-1umw9bq-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="AddSharpIcon"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z"></path></svg></button>
+					<div class="mui-j0aotr-WorkspaceControlPanel-buttonArea">
+						<button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge mui-12lzbui-MuiButtonBase-root-MuiIconButton-root-MiradorMenuButton-root" tabindex="0" type="button" aria-label="Jump to window" aria-haspopup="true" data-mui-internal-clone-element="true"><span class="MuiBadge-root mui-1k55d3o-MuiBadge-root"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mui-1umw9bq-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="BookmarksSharpIcon"><path d="m19 18 2 1V1H7v2h12zM17 5H3v18l7-3 7 3z"></path></svg><span class="MuiBadge-badge MuiBadge-standard MuiBadge-anchorOriginTopRight MuiBadge-anchorOriginTopRightRectangular MuiBadge-overlapRectangular mui-2ao5rv-MuiBadge-badge">1</span></span><span class="MuiTouchRipple-root mui-r3djoj-MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge mui-12lzbui-MuiButtonBase-root-MuiIconButton-root-MiradorMenuButton-root" tabindex="0" type="button" id="menuBtn" aria-label="Workspace settings" aria-haspopup="true" data-mui-internal-clone-element="true"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mui-1umw9bq-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SettingsSharpIcon"><path d="m19.44 12.99-.01.02c.04-.33.08-.67.08-1.01s-.03-.66-.07-.99l.01.02 2.44-1.92-2.43-4.22-2.87 1.16.01.01c-.52-.4-1.09-.74-1.71-1h.01L14.44 2H9.57l-.44 3.07h.01c-.62.26-1.19.6-1.71 1l.01-.01-2.88-1.17-2.44 4.22 2.44 1.92.01-.02c-.04.33-.07.65-.07.99s.03.68.08 1.01l-.01-.02-2.1 1.65-.33.26 2.43 4.2 2.88-1.15-.02-.04c.53.41 1.1.75 1.73 1.01h-.03L9.58 22h4.85s.03-.18.06-.42l.38-2.65h-.01c.62-.26 1.2-.6 1.73-1.01l-.02.04 2.88 1.15 2.43-4.2s-.14-.12-.33-.26zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5"></path></svg><span class="MuiTouchRipple-root mui-r3djoj-MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge mui-12lzbui-MuiButtonBase-root-MuiIconButton-root-MiradorMenuButton-root" tabindex="0" type="button" aria-label="Workspace options" data-mui-internal-clone-element="true"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mui-1umw9bq-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="MoreHorizSharpIcon"><path d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2m12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2m-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2"></path></svg><span class="MuiTouchRipple-root mui-r3djoj-MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge mui-12lzbui-MuiButtonBase-root-MuiIconButton-root-MiradorMenuButton-root" tabindex="0" type="button" aria-label="Full screen" data-mui-internal-clone-element="true"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mui-1umw9bq-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="FullscreenSharpIcon"><path d="M7 14H5v5h5v-2H7zm-2-4h2V7h3V5H5zm12 7h-3v2h5v-5h-2zM14 5v2h3v3h2V5z"></path></svg></button>
+					</div>
+				</div>
+				<div class="MuiStack-root mui-19ykvmu-MuiStack-root-WorkspaceControlPanel-branding">
+					<p class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter mui-oammdj-MuiTypography-root" style="--Typography-textAlign: center;">
+						<a class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge mui-154kngp-MuiButtonBase-root-MuiIconButton-root" tabindex="0" href="https://projectmirador.org" target="_blank" rel="noopener"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge mui-uks7c6-MuiSvgIcon-root" focusable="false" role="img" viewBox="0 0 60 55" aria-label="About Project Mirador"><rect width="18" height="55"></rect><rect width="18" height="55" transform="translate(42)"></rect><rect width="18" height="34" transform="translate(21)"></rect>
+						<title>About Project Mirador</title>
+						</svg></a>
+					</p>
+				</div>
+			</nav>
+			<main class="mirador-viewer mui-sb9can-WorkspaceArea-viewer" lang="en" aria-label="Workspace" style="">
+			<div style="height: 100%; width: 100%;">
+				<div class="mirador-workspace-viewport mui-xu2fmc-Workspace-root">
+					<h1 class="MuiTypography-root MuiTypography-body1 mui-11ym71c-MuiTypography-root" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; white-space: nowrap; width: 1px;">
+						Mirador viewer
+					</h1>
+					<div class="mirador-mosaic mui-1557to4 mosaic mosaic-drop-target">
+						<div class="mosaic-root">
+							<div class="mosaic-tile" style="inset: 0%;">
+								<div class="mosaic-window mosaic-drop-target">
+									<div class="mosaic-window-toolbar">
+										<div class="mosaic-window-title">
+										</div>
+										<div class="mosaic-window-controls">
+										</div>
+									</div>
+									<div class="mosaic-window-body">
+										<section class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 mirador-window mui-zkerac-MuiPaper-root-Window-root" id="window-4e05a66d-5fe1-4f5f-8c67-1207b6b586da" aria-label="Window: &quot;An act [of God in] in more ways than one.&quot; 1943" style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);">
+											<nav class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorDefault MuiAppBar-positionRelative mui-1wz88s1-MuiPaper-root-MuiAppBar-root-WindowTopBar-root" aria-label="Window navigation" style="--Paper-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);">
+												<div class="MuiToolbar-root MuiToolbar-dense mirador-window-top-bar mui-qoyb6l-MuiToolbar-root-WindowTopBar-toolbar">
+													<button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge mirador-window-menu-btn mui-12lzbui-MuiButtonBase-root-MuiIconButton-root-MiradorMenuButton-root" tabindex="0" type="button" aria-label="Toggle sidebar" data-mui-internal-clone-element="true"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mui-1umw9bq-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="MenuSharpIcon"><path d="M3 18h18v-2H3zm0-5h18v-2H3zm0-7v2h18V6z"></path></svg><span class="MuiTouchRipple-root mui-r3djoj-MuiTouchRipple-root"></span></button>
+													<h2 class="MuiTypography-root MuiTypography-h2 MuiTypography-noWrap mui-13lc6qn-MuiTypography-root">
+														"An act [of God in] in more ways than one." 1943
+													</h2>
+													<button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge mui-12lzbui-MuiButtonBase-root-MuiIconButton-root-MiradorMenuButton-root" tabindex="0" type="button" aria-label="Window views &amp; thumbnail display" aria-haspopup="true" data-mui-internal-clone-element="true"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mui-xbcal6-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M0,0H24V24H0Z" fill="none"></path><path d="M24.852,17.981,3,18V15.945l21.852-.019Z" transform="translate(-2 5)"></path><path d="M1,4V21H22.853V4.1ZM3,19V6h8V19Zm18,0H13V6h8Z" transform="translate(0 -2)"></path></svg><span class="MuiTouchRipple-root mui-r3djoj-MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge mirador-window-maximize mirador-window-menu-btn mui-12lzbui-MuiButtonBase-root-MuiIconButton-root-MiradorMenuButton-root" tabindex="0" type="button" aria-label="Maximize window" data-mui-internal-clone-element="true"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mui-xbcal6-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7,14H5v5h5V17H7Zm7-9V7h3v3h2V5Z"></path><path d="M22.517,1.524H1.736V22.37H22.517Zm-2,18.845H3.736V3.524H20.517Z"></path></svg></button><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge mirador-window-menu-btn mui-12lzbui-MuiButtonBase-root-MuiIconButton-root-MiradorMenuButton-root" tabindex="0" type="button" aria-label="Full screen" data-mui-internal-clone-element="true"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mui-1umw9bq-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="FullscreenSharpIcon"><path d="M7 14H5v5h5v-2H7zm-2-4h2V7h3V5H5zm12 7h-3v2h5v-5h-2zM14 5v2h3v3h2V5z"></path></svg></button>
+												</div>
+											</nav>
+											<div class="mui-hnlh1b-Window-row">
+												<div class="mui-akjxpj-Window-column">
+													<div data-testid="test-window" class="mirador-primary-window mui-jx6z7x-PrimaryWindow-root-Window-primary">
+														<div class="MuiDrawer-root MuiDrawer-anchorLeft MuiDrawer-docked mui-18bnory-MuiDrawer-docked-WindowSideBar-root">
+														</div>
+														<div class="mirador-companion-area-left mui-6xzsnq-CompanionArea-root">
+															<div class="mirador-companion-windows mui-187n0e9-CompanionArea-container" style="transform: translateX(0px); visibility: hidden;">
+																<aside class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 mirador-companion-window-left mirador-window-sidebar-info-panel mui-1pfab7x-MuiPaper-root-CompanionWindow-root" aria-label="About this item" style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); order: -1;">
+																	<div class="mui-1kw5vci-CompanionWindow-resize react-draggable" style="position: inherit; user-select: auto; width: 235px; height: 100%; display: inherit; top: 0px; left: 0px; cursor: auto; max-width: 9.0072e+15px; max-height: 9.0072e+15px; min-width: 235px; min-height: 50px; box-sizing: border-box; flex-shrink: 0;">
+																		<div class="MuiToolbar-root MuiToolbar-dense mirador-companion-window-header test mui-5gggfn-MuiToolbar-root-CompanionWindow-toolbar">
+																			<h3 class="MuiTypography-root MuiTypography-h3 mui-1k82uto-MuiTypography-root-CompanionWindow-title">
+																				About this item
+																			</h3>
+																			<button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge mui-12lzbui-MuiButtonBase-root-MuiIconButton-root-MiradorMenuButton-root" tabindex="0" type="button" aria-label="Open in separate panel" data-mui-internal-clone-element="true"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mui-1umw9bq-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="OpenInNewSharpIcon"><path d="M19 19H5V5h7V3H3v18h18v-9h-2zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3z"></path></svg></button>
+																		</div>
+																		<div class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 mirador-scrollto-scrollable mui-ynb1k1-MuiPaper-root-CompanionWindow-contents" style="--Paper-shadow: none;">
+																			<div parentactions="[object Object]" class="mui-1h7qrk0-CompanionWindowSection-root">
+																				<div class="MuiPaper-root MuiPaper-compact MuiAccordion-root Mui-expanded mui-d61p7v-MuiPaper-root-MuiAccordion-root" id="«r3q»">
+																					<h4 class="MuiAccordion-heading mui-cy7rkm-MuiAccordion-heading">
+																						<button class="MuiButtonBase-root MuiAccordionSummary-root Mui-expanded mui-1nnke-MuiButtonBase-root-MuiAccordionSummary-root" tabindex="0" type="button" aria-expanded="true" id="«r3q»-header" aria-controls="«r3q»-content" aria-label="Collapse &quot;Current item&quot; section"><span class="MuiAccordionSummary-content Mui-expanded mui-18x5eyn-MuiAccordionSummary-content"><span class="MuiTypography-root MuiTypography-overline mui-i1ygys-MuiTypography-root">Current item</span></span><span class="MuiAccordionSummary-expandIconWrapper Mui-expanded mui-1wqf3nl-MuiAccordionSummary-expandIconWrapper"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mui-1umw9bq-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ExpandMoreIcon"><path d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></span></button>
+																					</h4>
+																					<div class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered mui-qr6njo-MuiCollapse-root" style="min-height: 0px;">
+																						<div class="MuiCollapse-wrapper MuiCollapse-vertical mui-1x6hinx-MuiCollapse-wrapper">
+																							<div class="MuiCollapse-wrapperInner MuiCollapse-vertical mui-1i4ywhz-MuiCollapse-wrapperInner">
+																								<div aria-labelledby="«r3q»-header" id="«r3q»-content" role="region" class="MuiAccordion-region mui-at4ued-MuiAccordion-region">
+																									<div class="MuiAccordionDetails-root mui-1lj39kh-MuiAccordionDetails-root">
+																										<h5 class="MuiTypography-root MuiTypography-h4 mui-1x7vmx9-MuiTypography-root" aria-labelledby="«r3q» «r3r»" id="«r3r»">
+																											Page 1
+																										</h5>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			<div parentactions="[object Object]" class="mui-1h7qrk0-CompanionWindowSection-root">
+																				<div class="MuiPaper-root MuiPaper-compact MuiAccordion-root Mui-expanded mui-d61p7v-MuiPaper-root-MuiAccordion-root" id="«r3s»-resource">
+																					<h4 class="MuiAccordion-heading mui-cy7rkm-MuiAccordion-heading">
+																						<button class="MuiButtonBase-root MuiAccordionSummary-root Mui-expanded mui-1nnke-MuiButtonBase-root-MuiAccordionSummary-root" tabindex="0" type="button" aria-expanded="true" id="«r3s»-resource-header" aria-controls="«r3s»-resource-content" aria-label="Collapse &quot;Resource&quot; section"><span class="MuiAccordionSummary-content Mui-expanded mui-18x5eyn-MuiAccordionSummary-content"><span class="MuiTypography-root MuiTypography-overline mui-i1ygys-MuiTypography-root">Resource</span></span><span class="MuiAccordionSummary-expandIconWrapper Mui-expanded mui-1wqf3nl-MuiAccordionSummary-expandIconWrapper"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mui-1umw9bq-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ExpandMoreIcon"><path d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></span></button>
+																					</h4>
+																					<div class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered mui-qr6njo-MuiCollapse-root" style="min-height: 0px;">
+																						<div class="MuiCollapse-wrapper MuiCollapse-vertical mui-1x6hinx-MuiCollapse-wrapper">
+																							<div class="MuiCollapse-wrapperInner MuiCollapse-vertical mui-1i4ywhz-MuiCollapse-wrapperInner">
+																								<div aria-labelledby="«r3s»-resource-header" id="«r3s»-resource-content" role="region" class="MuiAccordion-region mui-at4ued-MuiAccordion-region">
+																									<div class="MuiAccordionDetails-root mui-1lj39kh-MuiAccordionDetails-root">
+																										<h5 class="MuiTypography-root MuiTypography-h4 mui-1x7vmx9-MuiTypography-root" aria-labelledby="«r3s»-resource «r3s»-resource-heading" id="«r3s»-resource-heading">
+																											"An act [of God in] in more ways than one." 1943
+																										</h5>
+																										<p class="MuiTypography-root MuiTypography-body1 mui-11ym71c-MuiTypography-root">
+																											<span class="mirador-third-party-html mui-1cqb08u-IIIFHtmlContent-root">Original watercolor signed and dated 1943 by Crown; view across ocean of gigantic thundercloud over distant island mountain which could be a volcanic eruption.</span>
+																										</p>
+																										<dl class="mirador-label-value-metadata">
+																											<dt class="MuiTypography-root MuiTypography-subtitle2 mui-10ga9zl-MuiTypography-root">Full_Title</dt>
+																											<dd class="MuiTypography-root MuiTypography-body1 mui-11ym71c-MuiTypography-root" style="margin-bottom: 0.5em; margin-left: 0px;"><span class="mirador-third-party-html mui-1cqb08u-IIIFHtmlContent-root">"An act [of God in] in more ways than one." 1943</span></dd>
+																											<dt class="MuiTypography-root MuiTypography-subtitle2 mui-10ga9zl-MuiTypography-root">Series</dt>
+																											<dd class="MuiTypography-root MuiTypography-body1 mui-11ym71c-MuiTypography-root" style="margin-bottom: 0.5em; margin-left: 0px;"><span class="mirador-third-party-html mui-1cqb08u-IIIFHtmlContent-root">Prints, Drawings and Watercolors from the Anne S.K. Brown Military Collection</span></dd>
+																											<dt class="MuiTypography-root MuiTypography-subtitle2 mui-10ga9zl-MuiTypography-root">Keywords</dt>
+																											<dd class="MuiTypography-root MuiTypography-body1 mui-11ym71c-MuiTypography-root" style="margin-bottom: 0.5em; margin-left: 0px;"><span class="mirador-third-party-html mui-1cqb08u-IIIFHtmlContent-root">World War, 1939-1945</span></dd>
+																											<dt class="MuiTypography-root MuiTypography-subtitle2 mui-10ga9zl-MuiTypography-root">Contributors</dt>
+																											<dd class="MuiTypography-root MuiTypography-body1 mui-11ym71c-MuiTypography-root" style="margin-bottom: 0.5em; margin-left: 0px;"><span class="mirador-third-party-html mui-1cqb08u-IIIFHtmlContent-root">Crown, Keith Allen, 1918-2010 (artist)</span></dd>
+																											<dt class="MuiTypography-root MuiTypography-subtitle2 mui-10ga9zl-MuiTypography-root">Date Created</dt>
+																											<dd class="MuiTypography-root MuiTypography-body1 mui-11ym71c-MuiTypography-root" style="margin-bottom: 0.5em; margin-left: 0px;"><span class="mirador-third-party-html mui-1cqb08u-IIIFHtmlContent-root">1943</span></dd>
+																											<dt class="MuiTypography-root MuiTypography-subtitle2 mui-10ga9zl-MuiTypography-root">Notes</dt>
+																											<dd class="MuiTypography-root MuiTypography-body1 mui-11ym71c-MuiTypography-root" style="margin-bottom: 0.5em; margin-left: 0px;"><span class="mirador-third-party-html mui-1cqb08u-IIIFHtmlContent-root">Artist had crossed out the words "of God" within title phrase.</span></dd>
+																											<dt class="MuiTypography-root MuiTypography-subtitle2 mui-10ga9zl-MuiTypography-root">Extent</dt>
+																											<dd class="MuiTypography-root MuiTypography-body1 mui-11ym71c-MuiTypography-root" style="margin-bottom: 0.5em; margin-left: 0px;"><span class="mirador-third-party-html mui-1cqb08u-IIIFHtmlContent-root">1 watercolor; 30.2 x 38.6 cm.</span></dd>
+																										</dl>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			<div parentactions="[object Object]" class="mui-1h7qrk0-CompanionWindowSection-root">
+																				<div class="MuiPaper-root MuiPaper-compact MuiAccordion-root Mui-expanded mui-d61p7v-MuiPaper-root-MuiAccordion-root" id="«r3t»">
+																					<h4 class="MuiAccordion-heading mui-cy7rkm-MuiAccordion-heading">
+																						<button class="MuiButtonBase-root MuiAccordionSummary-root Mui-expanded mui-1nnke-MuiButtonBase-root-MuiAccordionSummary-root" tabindex="0" type="button" aria-expanded="true" id="«r3t»-header" aria-controls="«r3t»-content" aria-label="Collapse &quot;Related&quot; section"><span class="MuiAccordionSummary-content Mui-expanded mui-18x5eyn-MuiAccordionSummary-content"><span class="MuiTypography-root MuiTypography-overline mui-i1ygys-MuiTypography-root">Related</span></span><span class="MuiAccordionSummary-expandIconWrapper Mui-expanded mui-1wqf3nl-MuiAccordionSummary-expandIconWrapper"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mui-1umw9bq-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ExpandMoreIcon"><path d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></span></button>
+																					</h4>
+																					<div class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered mui-qr6njo-MuiCollapse-root" style="min-height: 0px;">
+																						<div class="MuiCollapse-wrapper MuiCollapse-vertical mui-1x6hinx-MuiCollapse-wrapper">
+																							<div class="MuiCollapse-wrapperInner MuiCollapse-vertical mui-1i4ywhz-MuiCollapse-wrapperInner">
+																								<div aria-labelledby="«r3t»-header" id="«r3t»-content" role="region" class="MuiAccordion-region mui-at4ued-MuiAccordion-region">
+																									<div class="MuiAccordionDetails-root mui-1lj39kh-MuiAccordionDetails-root">
+																										<h5 class="MuiTypography-root MuiTypography-h4 mui-1x7vmx9-MuiTypography-root" aria-labelledby="«r3t» «r3u»" id="«r3u»">
+																											Links
+																										</h5>
+																										<dl class="mirador-label-value-metadata mui-1xg4ht0">
+																											<dt class="MuiTypography-root MuiTypography-subtitle2 mui-10ga9zl-MuiTypography-root">Related</dt>
+																											<dd class="MuiTypography-root MuiTypography-body1 mui-11ym71c-MuiTypography-root"><a class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways mui-5ifdaw-MuiTypography-root-MuiLink-root" target="_blank" rel="noopener noreferrer" href="https://repository.library.brown.edu/studio/item/bdr:247087/">BDR display</a><span class="MuiTypography-root MuiTypography-body1 mui-11ym71c-MuiTypography-root"> (text/html)</span></dd>
+																											<dt class="MuiTypography-root MuiTypography-subtitle2 mui-10ga9zl-MuiTypography-root">See also</dt>
+																											<dd class="MuiTypography-root MuiTypography-body1 mui-11ym71c-MuiTypography-root"><a class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways mui-5ifdaw-MuiTypography-root-MuiLink-root" target="_blank" rel="noopener noreferrer"></a></dd>
+																											<dt class="MuiTypography-root MuiTypography-subtitle2 mui-10ga9zl-MuiTypography-root">IIIF manifest</dt>
+																											<dd class="MuiTypography-root MuiTypography-body1 mui-11ym71c-MuiTypography-root"><a class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways mui-5ifdaw-MuiTypography-root-MuiLink-root" target="_blank" rel="noopener noreferrer" href="https://repository.library.brown.edu/iiif/presentation/bdr:247087/manifest.json">https://repository.library.brown.edu/iiif/presentation/bdr:247087/manifest.json</a></dd>
+																										</dl>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div>
+																			<div class="" style="position: absolute; user-select: none; width: 10px; height: 100%; top: 0px; cursor: col-resize; right: -5px;">
+																			</div>
+																		</div>
+																	</div>
+																</aside>
+															</div>
+														</div>
+														<section id="«r2r»" class="mirador-osd-container mui-1tpj4qo" aria-label="Item: Page 1" aria-live="polite" style="cursor: grab;">
+															<div class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 mirador-canvas-nav mui-s5h143-MuiPaper-root-WindowCanvasNavigationControls-root" style="--Paper-shadow: none;">
+																<div class="MuiStack-root mui-m69qwo-MuiStack-root">
+																	<div class="mui-il33mp">
+																		<button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge mui-12lzbui-MuiButtonBase-root-MuiIconButton-root-MiradorMenuButton-root" tabindex="0" type="button" aria-label="Zoom in" data-mui-internal-clone-element="true"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mui-1umw9bq-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="AddCircleOutlineSharpIcon"><path d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8"></path></svg></button><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge mui-12lzbui-MuiButtonBase-root-MuiIconButton-root-MiradorMenuButton-root" tabindex="0" type="button" aria-label="Zoom out" data-mui-internal-clone-element="true"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mui-1umw9bq-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="RemoveCircleOutlineSharpIcon"><path d="M7 11v2h10v-2zm5-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8"></path></svg></button><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge mui-12lzbui-MuiButtonBase-root-MuiIconButton-root-MiradorMenuButton-root" tabindex="0" type="button" aria-label="Reset zoom" data-mui-internal-clone-element="true"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mui-xbcal6-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M6,15H9v3h2V13H6Zm9-6V6H13v5h5V9Z"></path><path d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm0,18a8,8,0,1,1,8-8,8,8,0,0,1-8,8Z"></path></svg></button>
+																	</div>
+																	<div class="MuiDivider-root MuiDivider-middle MuiDivider-vertical MuiDivider-flexItem mui-1ck4b9x-MuiDivider-root" role="separator" aria-orientation="vertical">
+																	</div>
+																	<div class="mirador-osd-navigation" dir="ltr">
+																		<button class="MuiButtonBase-root Mui-disabled MuiIconButton-root Mui-disabled MuiIconButton-sizeLarge mirador-previous-canvas-button mui-12lzbui-MuiButtonBase-root-MuiIconButton-root-MiradorMenuButton-root" tabindex="-1" type="button" disabled="" aria-label="Previous item"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mui-1umw9bq-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="PlayCircleOutlineSharpIcon" style="transform: rotate(180deg);"><path d="m10 16.5 6-4.5-6-4.5zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8"></path></svg></button><button class="MuiButtonBase-root Mui-disabled MuiIconButton-root Mui-disabled MuiIconButton-sizeLarge mirador-next-canvas-button mui-12lzbui-MuiButtonBase-root-MuiIconButton-root-MiradorMenuButton-root" tabindex="-1" type="button" disabled="" aria-label="Next item"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mui-1umw9bq-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="PlayCircleOutlineSharpIcon"><path d="m10 16.5 6-4.5-6-4.5zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8"></path></svg></button>
+																	</div>
+																</div>
+																<div class="mirador-osd-info mui-10gglfu">
+																	<span class="MuiTypography-root MuiTypography-caption mirador-canvas-count mui-qv4n6e-MuiTypography-root">1 of 1</span><span class="MuiTypography-root MuiTypography-caption mirador-canvas-label mui-qv4n6e-MuiTypography-root"> • Page 1</span>
+																</div>
+															</div>
+															<div style="background: none transparent; border: none; margin: 0px; padding: 0px; position: relative; width: 100%; height: 100%; overflow: hidden; left: 0px; top: 0px; text-align: left; touch-action: none; pointer-events: auto;" class="openseadragon-container">
+																<div class="openseadragon-canvas" tabindex="0" style="background: none transparent; border: none; margin: 0px; padding: 0px; position: absolute; width: 100%; height: 100%; overflow: hidden; top: 0px; left: 0px; touch-action: none; pointer-events: auto; text-align: left;">
+																	<canvas width="2146" height="252" role="img" aria-label="Digitized view" aria-describedby="«r2r»" style="background: none transparent; border: none; margin: 0px; padding: 0px; position: absolute; width: 100%; height: 100%; left: 0px; pointer-events: none; touch-action: none;">
+																	</canvas>
+																	<div style="background: none transparent; border: none; margin: 0px; padding: 0px; position: static;">
+																	</div>
+																	<canvas width="2146" height="252" style="background: none transparent; border: none; margin: 0px; padding: 0px; position: absolute; width: 100%; height: 100%; left: 0px; pointer-events: none; touch-action: none; visibility: hidden;">
+																	</canvas>
+																</div>
+																<div style="background: none transparent; border: none; margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px;">
+																</div>
+																<div style="background: none transparent; border: none; margin: 0px; padding: 0px; position: absolute; right: 0px; top: 0px;">
+																</div>
+																<div style="background: none transparent; border: none; margin: 0px; padding: 0px; position: absolute; right: 0px; bottom: 0px;">
+																</div>
+																<div style="background: none transparent; border: none; margin: 0px; padding: 0px; position: absolute; left: 0px; bottom: 0px;">
+																</div>
+															</div>
+														</section>
+													</div>
+													<div class="mirador-companion-area-bottom mui-40byg9-CompanionArea-root-Window-bottom">
+														<div class="mirador-companion-windows mui-1r2k69w-CompanionArea-container" style="transform: none; transition: transform 225ms cubic-bezier(0, 0, 0.2, 1);">
+														</div>
+													</div>
+												</div>
+												<div class="mui-hbj637-Window-right">
+													<div class="mirador-companion-area-right mui-6xzsnq-CompanionArea-root">
+														<div class="mirador-companion-windows mui-1g2site-CompanionArea-container" style="transform: none; transition: transform 225ms cubic-bezier(0, 0, 0.2, 1);">
+														</div>
+													</div>
+													<div class="mirador-companion-area-far-right mui-6xzsnq-CompanionArea-root">
+														<div class="mirador-companion-windows mui-1g2site-CompanionArea-container" style="transform: none; transition: transform 225ms cubic-bezier(0, 0, 0.2, 1);">
+															<div class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 mirador-thumb-navigation mui-10sxoo2-MuiPaper-root" aria-label="Thumbnails" tabindex="0" role="grid" style="--Paper-shadow: none; height: 100%; min-height: 0px; width: 123px;">
+																<div role="row" style="height: 100%; width: 100%;">
+																	<div style="overflow: visible; height: 0px; width: 0px;">
+																		<div style="position: relative; height: 126px; width: 123px; overflow: auto; will-change: transform; direction: ltr;">
+																			<div style="height: 86px; width: 100%;">
+																				<div class="mirador-thumbnail-nav-container" role="gridcell" aria-colindex="1" style="position: absolute; left: 8px; top: 8px; height: 78px; box-sizing: content-box;">
+																					<div role="button" data-canvas-id="https://repository.library.brown.edu/iiif/presentation/bdr:247087/canvas/page-bdr:247087.json" data-canvas-index="0" tabindex="-1" class="mirador-thumbnail-nav-canvas mirador-thumbnail-nav-canvas-0 mirador-current-canvas-grouping mui-1fmzj3a">
+																						<div class="mui-pjoudc-IIIFThumbnail-root">
+																							<img alt="" role="presentation" class="mui-7axq6m-IIIFThumbnail-image" src="https://repository.library.brown.edu/iiif/image/bdr:247087/full/,120/0/default.jpg" style="height: 74px; max-width: 94px;"><span class="mui-ydvoir-IIIFThumbnail-label">Page 1</span>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="mirador-companion-area-far-bottom mui-1am22oz-CompanionArea-root">
+												<div class="mirador-companion-windows mui-1r2k69w-CompanionArea-container" style="transform: none; transition: transform 225ms cubic-bezier(0, 0, 0.2, 1);">
+												</div>
+											</div>
+										</section>
+									</div>
+									<div class="mosaic-window-body-overlay">
+									</div>
+									<div class="mosaic-window-additional-actions-bar">
+									</div>
+									<div class="mosaic-preview" aria-hidden="true">
+										<section class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 mirador-placeholder-window mui-dy4mvo-MuiPaper-root" id="window-4e05a66d-5fe1-4f5f-8c67-1207b6b586da-preview" style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);">
+											<header class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorDefault MuiAppBar-positionRelative mui-kuar41-MuiPaper-root-MuiAppBar-root" style="--Paper-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);">
+												<div class="MuiToolbar-root MuiToolbar-dense mirador-window-top-bar mui-1d72jr1-MuiToolbar-root">
+													<button class="MuiButtonBase-root Mui-disabled MuiIconButton-root Mui-disabled MuiIconButton-sizeLarge mui-12lzbui-MuiButtonBase-root-MuiIconButton-root-MiradorMenuButton-root" tabindex="-1" type="button" disabled="" aria-label="Toggle sidebar"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mui-1umw9bq-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="MenuSharpIcon"><path d="M3 18h18v-2H3zm0-5h18v-2H3zm0-7v2h18V6z"></path></svg></button>
+													<h2 class="MuiTypography-root MuiTypography-h2 MuiTypography-noWrap mui-152boq7-MuiTypography-root">
+														"An act [of God in] in more ways than one." 1943
+													</h2>
+													<button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge mirador-window-close mui-1vwvrgp-MuiButtonBase-root-MuiIconButton-root-MiradorMenuButton-root" tabindex="-1" type="button" aria-label="Close window" data-mui-internal-clone-element="true"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mui-1umw9bq-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="CloseSharpIcon"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg></button>
+												</div>
+											</header>
+										</section>
+									</div>
+									<div class="drop-target-container">
+										<div class="drop-target top">
+										</div>
+										<div class="drop-target bottom">
+										</div>
+										<div class="drop-target left">
+										</div>
+										<div class="drop-target right">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="drop-target-container">
+							<div class="drop-target top">
+							</div>
+							<div class="drop-target bottom">
+							</div>
+							<div class="drop-target left">
+							</div>
+							<div class="drop-target right">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div aria-hidden="true" class="MuiBackdrop-root mui-1rxxzfv-MuiBackdrop-root" style="opacity: 0; visibility: hidden; z-index: 9999;">
+					<svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mui-1umw9bq-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="InsertDriveFileSharpIcon" style="color: rgb(189, 189, 189); font-size: 256px;"><path d="M4.01 2 4 22h16V8l-6-6zM13 9V3.5L18.5 9z"></path></svg>
+				</div>
+			</div>
+			<div class="mirador-background-plugin-area" style="display: none;">
+			</div>
+			</main>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	Mirador.viewer({
+	  id: "mirador",
+	  themes: {
+	    dark: {
+	      palette: {
+	        type: 'dark',
+	        primary: {
+	          main: '#ffc72c',
+	        },
+	      },
+	    },
+	    light: {
+	      palette: {
+	        type: 'light',
+	        primary: {
+	          main: '#c00404',
+	        },
+	      },
+	    },
+	  },
+	  selectedTheme: 'light',
+	  workspace: {
+	    showZoomControls: true,
+	    type: 'mosaic',
+	  },
+	  thumbnailNavigation: {
+	    defaultPosition: 'far-right',
+	  },
+	  window: {
+	      allowFullscreen: true,
+	  },
+	  
+	  windows: [
+	    {
+	      manifestId: 'https://repository.library.brown.edu/iiif/presentation/bdr:247087/manifest.json',
+	      view: 'single',
+	      allowClose: false,
+	      defaultSideBarPanel: 'info',
+	      sideBarOpenByDefault: false,
+	      
+	      canvasIndex: 0
+	    },
+	  ]
+	});
+</script>
+</body>
+</html>
