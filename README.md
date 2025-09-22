@@ -15,6 +15,8 @@ on this page...
 ## purpose
 - to explore what we can/should do to improve the Studio's image-accessibility.
 
+(I ended up focusing pretty-quickly on IIIF-viewer-accessibility; we need to broaden that scope. But I think the things that can improve IIIF-viewer-accessibility will be core to improving the accessibility of collection and search-results pages.)
+
 ---
 
 
